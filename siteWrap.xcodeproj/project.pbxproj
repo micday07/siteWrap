@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1F1DEF718CF93E94EA8AA9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4FBC10DD45193D404B5361 /* CoreVideo.framework */; };
+		2D2F43844CE2EB2942343B03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C3A3708927BD8614375646 /* AVFoundation.framework */; };
+		3A6B13B8F54041A8FB64B274 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A8AE24E82512F730773966 /* CoreMedia.framework */; };
+		3BDCD77F8FBABE312344B509 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02BC5D6053C2423FCB3FB402 /* QuartzCore.framework */; };
+		7379C697625E184A9D736BC0 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410EB5E7036BF44BC0003C78 /* BuddyBuildSDK.framework */; };
+		D130DC7E3A9C8AEBE5B4A771 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6131310448FEA5717C300964 /* AssetsLibrary.framework */; };
 		D235493D1DDCE44500228311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D235493C1DDCE44500228311 /* main.m */; };
 		D23549401DDCE44500228311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D235493F1DDCE44500228311 /* AppDelegate.m */; };
 		D23549431DDCE44500228311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23549421DDCE44500228311 /* ViewController.m */; };
 		D23549461DDCE44500228311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23549441DDCE44500228311 /* Main.storyboard */; };
 		D23549481DDCE44500228311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23549471DDCE44500228311 /* Assets.xcassets */; };
 		D235494B1DDCE44500228311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23549491DDCE44500228311 /* LaunchScreen.storyboard */; };
+		D47EF1C904FCEC6FBAECC604 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AADF827A3FDE1E1E05EC09C /* CoreTelephony.framework */; };
+		DE13872A2C0602E5D7D34141 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12A2481341C3137E784830A /* SystemConfiguration.framework */; };
+		E1DEC6968456E718CA273571 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4729E5ABE0DC2E4A4A9A9999 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02BC5D6053C2423FCB3FB402 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		410EB5E7036BF44BC0003C78 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		4729E5ABE0DC2E4A4A9A9999 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6131310448FEA5717C300964 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6B4FBC10DD45193D404B5361 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		84C3A3708927BD8614375646 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86A8AE24E82512F730773966 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8AADF827A3FDE1E1E05EC09C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D12A2481341C3137E784830A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D23549381DDCE44500228311 /* siteWrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siteWrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D235493C1DDCE44500228311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D235493E1DDCE44500228311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +51,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7379C697625E184A9D736BC0 /* BuddyBuildSDK.framework in Frameworks */,
+				D130DC7E3A9C8AEBE5B4A771 /* AssetsLibrary.framework in Frameworks */,
+				E1DEC6968456E718CA273571 /* CoreText.framework in Frameworks */,
+				D47EF1C904FCEC6FBAECC604 /* CoreTelephony.framework in Frameworks */,
+				DE13872A2C0602E5D7D34141 /* SystemConfiguration.framework in Frameworks */,
+				3BDCD77F8FBABE312344B509 /* QuartzCore.framework in Frameworks */,
+				2D2F43844CE2EB2942343B03 /* AVFoundation.framework in Frameworks */,
+				3A6B13B8F54041A8FB64B274 /* CoreMedia.framework in Frameworks */,
+				1B1F1DEF718CF93E94EA8AA9 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9846C154F4677D33D1045CF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410EB5E7036BF44BC0003C78 /* BuddyBuildSDK.framework */,
+				6131310448FEA5717C300964 /* AssetsLibrary.framework */,
+				4729E5ABE0DC2E4A4A9A9999 /* CoreText.framework */,
+				8AADF827A3FDE1E1E05EC09C /* CoreTelephony.framework */,
+				D12A2481341C3137E784830A /* SystemConfiguration.framework */,
+				02BC5D6053C2423FCB3FB402 /* QuartzCore.framework */,
+				84C3A3708927BD8614375646 /* AVFoundation.framework */,
+				86A8AE24E82512F730773966 /* CoreMedia.framework */,
+				6B4FBC10DD45193D404B5361 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D235492F1DDCE44500228311 = {
 			isa = PBXGroup;
 			children = (
 				D235493A1DDCE44500228311 /* siteWrap */,
 				D23549391DDCE44500228311 /* Products */,
+				9846C154F4677D33D1045CF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -274,6 +318,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NKQM3973F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = siteWrap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mike.siteWrap;
@@ -286,6 +334,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NKQM3973F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = siteWrap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mike.siteWrap;
@@ -312,6 +364,7 @@
 				D23549511DDCE44500228311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
